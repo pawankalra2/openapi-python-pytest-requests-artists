@@ -1,0 +1,57 @@
+2022-03-31 16:39:30 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:30 INFO  14    petstore.py          post_pet_details()
+2022-03-31 16:39:30 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:30 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:32 DEBUG 14    connectionpool.py    Starting new HTTPS connection (1): petstore.swagger.io:443
+2022-03-31 16:39:32 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "POST /v2/pet HTTP/1.1" 200 None
+2022-03-31 16:39:32 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:32 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:32 DEBUG 14    utils.py             200
+2022-03-31 16:39:32 DEBUG 14    utils.py             {'id': 9223372016854981061, 'category': {'id': 0, 'name': 'mydoggiesg'}, 'name': 'mydoggiesg', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'available'}
+2022-03-31 16:39:32 INFO  14    petstore.py          petid is : {9223372016854981061}
+2022-03-31 16:39:32 INFO  14    petstore.py          get_pet_details()
+2022-03-31 16:39:32 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:32 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:33 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "GET /v2/pet/9223372016854981061 HTTP/1.1" 200 None
+2022-03-31 16:39:33 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:33 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:33 DEBUG 14    utils.py             200
+2022-03-31 16:39:33 DEBUG 14    utils.py             {'id': 9223372016854981061, 'category': {'id': 0, 'name': 'mydoggiesg'}, 'name': 'mydoggiesg', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'available'}
+2022-03-31 16:39:33 INFO  14    petstore.py          petid is : {9223372016854981061}
+2022-03-31 16:39:33 INFO  14    petstore.py          update_pet_details()
+2022-03-31 16:39:33 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:33 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded'}
+2022-03-31 16:39:33 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "POST /v2/pet/9223372016854981061 HTTP/1.1" 200 None
+2022-03-31 16:39:33 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:33 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:33 DEBUG 14    utils.py             200
+2022-03-31 16:39:33 DEBUG 14    utils.py             {'code': 200, 'type': 'unknown', 'message': '9223372016854981061'}
+2022-03-31 16:39:33 INFO  14    petstore.py          petid is : {9223372016854981061}
+2022-03-31 16:39:33 INFO  14    petstore.py          get_pet_details()
+2022-03-31 16:39:33 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:33 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:34 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "GET /v2/pet/9223372016854981061 HTTP/1.1" 200 None
+2022-03-31 16:39:34 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:33 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:34 DEBUG 14    utils.py             200
+2022-03-31 16:39:34 DEBUG 14    utils.py             {'id': 9223372016854981061, 'category': {'id': 0, 'name': 'mydoggiesg'}, 'name': 'mydoggiesgupdated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'not available'}
+2022-03-31 16:39:34 INFO  14    petstore.py          petid is : {9223372016854981061}
+2022-03-31 16:39:34 INFO  14    petstore.py          delete_pet_details()
+2022-03-31 16:39:34 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:34 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:34 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "DELETE /v2/pet/9223372016854981061 HTTP/1.1" 200 None
+2022-03-31 16:39:34 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:34 DEBUG 14    utils.py             200
+2022-03-31 16:39:34 DEBUG 14    utils.py             {'code': 200, 'type': 'unknown', 'message': '9223372016854981061'}
+2022-03-31 16:39:34 INFO  14    petstore.py          petid is : {565656556}
+2022-03-31 16:39:34 INFO  14    petstore.py          get_pet_details()
+2022-03-31 16:39:34 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:34 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:34 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "GET /v2/pet/565656556 HTTP/1.1" 404 None
+2022-03-31 16:39:34 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:34 DEBUG 14    utils.py             404
+2022-03-31 16:39:34 DEBUG 14    utils.py             {'code': 1, 'type': 'error', 'message': 'Pet not found'}
+2022-03-31 16:39:34 INFO  14    petstore.py          petid is : {''}
+2022-03-31 16:39:34 INFO  14    petstore.py          get_pet_details()
+2022-03-31 16:39:34 DEBUG 14    petstore.py          Username is : *******, Password is : *******
+2022-03-31 16:39:34 DEBUG 14    utils.py             Request headers: {'accept': 'application/json', 'Content-Type': 'application/json'}
+2022-03-31 16:39:35 DEBUG 14    connectionpool.py    https://petstore.swagger.io:443 "GET /v2/pet/ HTTP/1.1" 405 None
+2022-03-31 16:39:35 DEBUG 14    utils.py             {'Date': 'Thu, 31 Mar 2022 16:39:35 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+2022-03-31 16:39:35 DEBUG 14    utils.py             405
+2022-03-31 16:39:35 DEBUG 14    utils.py             {'code': 405, 'type': 'unknown'}
