@@ -1,0 +1,36 @@
+pipeline {
+   // agent linux OR
+  agent {
+        docker {
+            image '<image name>'
+            registryUrl 'https://registry.hub.docker.com'
+            registryCredentialsId 'docker-credentials'
+            args '--network host -u root:root'
+        }
+  }
+
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install -r requirements.txt'
+            }
+        }
+
+        stage('Navigate to suites older') {
+            steps {
+                sh 'cd suites'
+            }
+        }
+        stage('Run all Tests') {
+            steps {
+                sh './all_test_suite.sh'
+            }
+        }
+
+        post {
+    always {
+        email 'reports/htmlreport.html'
+    }
+}
+    }
+}
