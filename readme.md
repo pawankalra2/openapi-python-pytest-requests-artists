@@ -23,7 +23,7 @@ Python 3.7 and up
 2) Change to your favorite local directory (i.e. cd /opt)
 Clone the repository / Unzip the attachment .
 
-git clone 
+git clone https://github.com/pawankalra2/openapi-python-pytest-requests-artists.git
 3)Change to the project root directory
 4)cd /opt/openapi-python-pytest-requests-artists
 5) Create a new file, name it secrets.ini and add the following contents
